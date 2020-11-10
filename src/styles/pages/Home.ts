@@ -9,29 +9,15 @@ export const Container = styled.div`
   align-items:center;
   flex-direction:column;
 
-  h1 {
-    font-size:54px;
-    color: ${props => props.theme.colors.primary};
-    margin-top:40px;
-  }
-  p {
-    margin-top:24px;
-    font-size:24px;
-    line-height:32px;
-  }
 `;
 
-export const LogosWrapper = styled.div`
 
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  svg {
-    width:200px;
-    height:200px;
-  }
-  img {
-    object-fit:cover;
-    width:340px;
-  }
+export const ContentContainer = styled.div`
+    width:90%;
+
+    align-items:center;
+    justify-content:center;
+
+    border:1px solid blue;
+    height:100vh;
 `
