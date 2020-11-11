@@ -16,8 +16,16 @@ export const Menu = styled.div`
   display:flex;
   justify-content:space-between;
 
-  background-color:red;
+
   div {
+    padding:1rem;
     font-size:1.6rem;
+    &:hover {
+      color:#000;
+      background:#fff;
+    }
   }
 `
+
+export const LogoContainer = styled.div``
+
