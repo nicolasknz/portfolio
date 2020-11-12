@@ -19,7 +19,7 @@ export const Menu = styled.div`
 
   div {
     padding:1rem;
-    font-size:1.6rem;
+    font-size:1.5rem;
     &:hover {
       color:#000;
       background:#fff;

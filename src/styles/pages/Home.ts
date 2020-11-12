@@ -13,11 +13,11 @@ export const Container = styled.div`
 
 
 export const ContentContainer = styled.div`
-    width:90%;
+    width:95%;
 
     align-items:center;
     justify-content:center;
 
-    border:1px solid blue;
+
     height:100vh;
 `
